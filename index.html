@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz Gambôa</title>
+    <link rel='stylesheet' href='./style.css'>
+</head>
+<body>
+    <div class="hero-container" id="home">
+        <header>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <a href="#profile"> <li>Perfil</li> </a>
+                    <a href="#projetos"> <li>Projetos</li> </a>
+                    <a href="#contato"> <li>Contato</li> </a>
+                </ul>
+            </nav>
+        </header>
+        <h1>Procurando um desenvolvedor FullStack?</h1>
+        <svg class="arrows"> <!--Criando imagens vetorizadas-->
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>        
+    </div>
+    <div class="content-container">
+        <div class="profile-container" id="profile">
+            <div class="profile-content">
+                <div class="profile-card">
+                    <img class="profile-image" src="./1670545377032.jpg" />
+                    <span class="name-text">Beatriz Gambôa</span>
+                    <span class="profile-text">
+                        Escolher outro depois.
+                    </span>
+                    <a href="https://www.linkedin.com/in/beatriz-gamb%C3%B4a-6559b3a3/?originalSubdomain=br" target="_blank">
+                        <button class="profile-button">
+                            Conhecer LinkedIn!
+                        </button>
+                    </a>
+                    <div class="divider"></div>
+                    <div class="icons-container">
+                        <img class="icon-item" src="./JavaScript-logo.png"/>
+                        <img class="icon-item" src="./node.png"/>
+                        <img class="icon-item" src="./React-icon.svg.png"/>
+                    </div>
+                </div>
+            </div>
+            <p class="profile-sinopse">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="project-container" id="projetos">
+            <div class="project-content">
+                <div class="position-container right">
+                    <div class="project-card">
+                        <img class="project-image" src="./Batman.png"/>
+                        <p class="project-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div>
+                </div>
+                <div class="position-container left">
+                    <div class="project-card card-reverse">
+                        <img class="project-image-reverse" src="./Batman.png"/>
+                        <p class="project-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-container right">
+                    <div class="project-card">
+                        <img class="project-image" src="./Batman.png"/>
+                        <p class="project-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content-container">
+        <div class="form-container" id="contato">
+            <div class="container">
+                <div class="contato-container">
+                    <span >Meus Contatos</span>
+                    <div class="contato-link">
+                        <img class="icone-contato" src='./linkedin.png' />
+                        <span id="links">LinkedIn</span>
+                    </div>
+                    <div class="contato-link">
+                        <img class="icone-contato" src='./github.png' />
+                        <span id="links">GitHub</span>
+                    </div>                                       
+                </div>
+            </div>
+
+            <form action="https://formspree.io/f/xvojqala" method="POST" >
+                <div class="mensagem-container">
+                    <img class="icone-mensagem" src="./message.png" />
+                    <span class="mensagem">Envie uma mensagem!</span>
+                </div>
+                <label>
+                    E-mail:
+                    <input type="email" name="email">
+                </label>
+        
+                <label>
+                    Nome:
+                    <input type="text" name="name">
+                </label>
+        
+                <label>
+                    Telefone:
+                    <input type="text" name="fone">
+                </label>
+        
+                <label>
+                    Menssagem:
+                    <textarea name="message"></textarea>
+                </label>
+        
+                <button class="button-mensagem" type="submit">
+                    <img class="icone-botao" src="./email.png"/>
+                    Enviar
+                </button>
+            </form>
+            
+        </div>
+
+    </div>
+</body>
+</html>
